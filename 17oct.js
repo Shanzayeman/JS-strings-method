@@ -1,0 +1,17 @@
+let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+document.getElementById("demo1").innerHTML = text.length;
+var text1 = "HELLO WORLD";
+document.getElementById("demo2").innerHTML = text1.charAt(0);
+let text2 = "HELLO WORLD";
+document.getElementById("demo3").innerHTML = text2.charCodeAt(0);
+const name = "W3Schools";
+let letter = name.at(2);
+document.getElementById("demo4").innerHTML = letter;
+let text3 = "HELLO WORLD";
+document.getElementById("demo5").innerHTML = text3[0];
+let text4 = "Apple, Banana, Kiwi";
+let part = text4.slice(7,13);
+document.getElementById("demo6").innerHTML = part; 
+let text5 = "Apple, Banana, Kiwi";
+let part1 = text.slice(-12);
+document.getElementById("demo7").innerHTML = part1;
